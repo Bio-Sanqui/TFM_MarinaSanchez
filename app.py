@@ -3,7 +3,7 @@ import base64
 import requests
 
 app = Flask(__name__)
-api_key = "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"
+api_key = "INSERT_YOUR_OPENAI_KEY_HERE"
 
 def gpt4(base64_image):
     # Function to encode images
